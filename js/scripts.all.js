@@ -60,10 +60,10 @@ function moveDiv() {
         var topPos4 = Math.floor(Math.random() * (max - min) + min);
 
 
-        $span1.css({ 'transform': 'translate('+leftPos1+'px, '+topPos1+'px)'});
-        $span2.css({ 'transform': 'translate('+leftPos2+'px, '+topPos2+'px)'});
-        $span3.css({ 'transform': 'translate('+leftPos3+'px, '+topPos3+'px)'});
-        $span4.css({ 'transform': 'translate('+leftPos4+'px, '+topPos4+'px)'});
+        $span1.css({ 'transform': 'translate('+leftPos1+'px, '+topPos1+'px) rotate('+leftPos1+'deg)'});
+        $span2.css({ 'transform': 'translate('+leftPos2+'px, '+topPos2+'px) rotate('+leftPos2+'deg)'});
+        $span3.css({ 'transform': 'translate('+leftPos3+'px, '+topPos3+'px) rotate('+leftPos3+'deg)'});
+        $span4.css({ 'transform': 'translate('+leftPos4+'px, '+topPos4+'px) rotate('+leftPos4+'deg)'});
 };
 if(window.innerWidth >= 1024) {
     moveDiv();
