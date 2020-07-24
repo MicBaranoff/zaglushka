@@ -194,26 +194,26 @@ table {
   position: absolute;
   max-width: 70px;
   z-index: -1;
+  transition: all 15s linear;
+}
+.main-wrapper > .dec.active {
+  transition: all 0.6s linear;
 }
 .main-wrapper > .dec__dec1 {
   top: 30%;
   left: 10%;
-  transition: all 0.2s ease;
 }
 .main-wrapper > .dec__dec2 {
   top: 70%;
   left: 20%;
-  transition: all 0.2s ease;
 }
 .main-wrapper > .dec__dec3 {
   top: 20%;
   right: 10%;
-  transition: all 0.2s ease;
 }
 .main-wrapper > .dec__dec4 {
   top: 75%;
   right: 15%;
-  transition: all 0.2s ease;
 }
 @media screen and (max-width: 1024px) {
   .dec {
