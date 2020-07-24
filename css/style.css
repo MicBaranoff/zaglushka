@@ -157,6 +157,7 @@ table {
   margin: 0 auto;
   width: 100%;
   max-width: 350px;
+  margin-bottom: 60px;
 }
 .main-wrapper__box p {
   text-align: center;
@@ -181,8 +182,13 @@ table {
   width: 30px;
   margin: 0 5px;
 }
-.main-wrapper__box-socials a img {
-  width: 100%;
+.main-wrapper__box-socials a svg {
+  width: 30px!important;
+  height: 30px!important;
+}
+.main-wrapper__box-socials a svg path {
+  width: 30px!important;
+  height: 30px!important;
 }
 .main-wrapper > .dec {
   position: absolute;
